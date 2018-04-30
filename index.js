@@ -35,7 +35,7 @@ function viewCart() {
         for ( var i = 2; i < cart.length; i++){
           newCart.push(`, and ${cart[i].itemName} at $${cart[i].itemPrice}`);
     }
-  return `In your cart, you have ${cart[0].itemName} at $${cart[0].itemPrice}, ${cart[1].itemName} at $${cart[1].itemPrice}${bigCart.toString()}.`
+  return `In your cart, you have ${cart[0].itemName} at $${cart[0].itemPrice}, ${cart[1].itemName} at $${cart[1].itemPrice}${newCart.toString()}.`
  }
 }
 function total() {
