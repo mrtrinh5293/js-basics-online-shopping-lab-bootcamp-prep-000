@@ -33,7 +33,7 @@ function viewCart() {
   else{
         var newCart = [];
         for ( var i = 2; i < cart.length; i++){
-     newCart.push(`, and ${cart[i].itemName} at $${cart[i].itemPrice}`);
+          newCart.push(`, and ${cart[i].itemName} at $${cart[i].itemPrice}`);
     }
  }
 }
